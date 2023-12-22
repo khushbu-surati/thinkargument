@@ -1,0 +1,2815 @@
+/*Sidebar Menu*/ 
+.elementor-popup-modal .dialog-close-button{
+	font-size : 20px; 
+	right : 35px !important; 
+	text-decoration : none; 
+	color : #fff;
+ } 
+.elementor-popup-modal .dialog-close-button:hover{ 
+	color : #6CA08F; 
+} 
+.sidebar-btn .elementor-button-wrapper .elementor-button{ 
+	display : block;
+}
+.sidebar-menu ul.chapterlevel li.chapterlevel{
+	margin-bottom: 12px !important;
+} 
+.sidebar-menu a.chapterlevel{ 
+	color : rgb(255 255 255 / 60%);
+	font-size : 16px; 
+	Line-height : 26px; 
+	transition : all .3s;
+	position: relative; 
+	padding-right: 15px;
+} 
+.sidebar-menu a.chapterlevel:hover { 
+	color : #6CA08F; 
+	text-decoration : none; 
+} 
+.sidebar-menu a.chapterlevel:hover:before, 
+.sidebar-menu a.chapterlevel.activeone:before{ 
+	color : #6CA08F; 
+}
+.sidebar-menu a.chapterlevel.activeone:before{ 
+	content: "\f068";
+}
+.sidebar-menu a.chapterlevel:before{ 
+	position:absolute; 
+	content: "\f067";
+	right:0;
+	color:rgb(255 255 255 / 60%); 
+	top:0; 
+	font-size:13px; 
+	font-family:"Font Awesome 5 Free"; 
+	font-weight:900;
+}
+.sidebar-menu ul.unitlevel{
+	margin: 0 !important;
+}
+.sidebar-menu ul.unitlevel li.unitlevel a.unitlevel { 
+	color : #fff; 
+	margin-bottom : 10px;
+	text-align : left;
+	font-size : 22px; 
+	font-family : "Futura Pt Demi"; 
+	transition : all .3s; 
+}   
+.elementor-popup-modal .dialog-message{ 
+	padding : 0px !important;
+	width: 315px;
+}
+
+/*.page.page-id-203 .elementor-popup-modal .dialog-message{
+	width: 620px !important;
+}*/
+
+
+.sidebar-menu ul.unitlevel a.activeone, ul.chapterlevel a.activeone, 
+.sidebar-menu .unitlevel ul.chapterlevel .chapterlevel.activeone ul.lessonlevel a.lessonlevel:hover{ 
+	color:#6CA08F !important; 
+}
+.sidebar-menu .unitlevel ul.chapterlevel .chapterlevel.activeone ul.lessonlevel a.lessonlevel {
+	color:rgb(255 255 255 / 60%); 
+	font-size:15px; 
+	Line-height:25px; 
+	font-weight:normal; 
+	text-decoration:none; 
+	transition:all .3s;
+
+}
+.sidebar-menu ul.quizlevel.quiz{ 
+	padding-left : 10px; 
+}
+.sidebar-menu a.quizlevel{ 
+	color:rgb(255 255 255 / 60%) !important;
+	font-size: 14px; 
+	Line-height:34px; 
+	font-weight:normal;
+}
+.side-bar-menu-top nav ul.elementor-nav-menu,
+.side-bar-menu-bottom nav ul.elementor-nav-menu{
+	display: inline-block;
+}
+.side-bar-menu-top nav ul.elementor-nav-menu li,
+.side-bar-menu-bottom nav ul.elementor-nav-menu li{
+	margin-bottom: 12px;
+}
+.side-bar-menu-top nav ul.elementor-nav-menu li a,
+.side-bar-menu-bottom nav ul.elementor-nav-menu li a{
+    padding: 0;
+    color: rgb(255 255 255 / 60%) !important;
+    font-weight: 400 !important;
+    text-decoration: none;
+    font-family: "Joanna Nova W06 Regular" !important;
+}
+.side-bar-menu-top nav ul.elementor-nav-menu li a:hover,
+.side-bar-menu-bottom nav ul.elementor-nav-menu li a:hover{
+   padding: 0;
+   color: #6ca08f !important;
+}
+.side-bar-menu-top nav ul.elementor-nav-menu li a.elementor-item-active,
+.side-bar-menu-bottom nav ul.elementor-nav-menu li a.elementor-item-active{
+	 color: #6CA08F !important;
+}
+
+
+
+.overview-content h3#groupheaderforquizquestions { 
+	font-size:42px; 
+	Line-height:56px; 
+	color:#313166; 
+	margin-top: 0;
+	font-family:"Futura Pt Demi"; 
+}
+.overview-content #progressbarforpercentagepassing{ 
+	border-radius:6px 6px 0 0;
+}
+.overview-content #progressbarforpercentagepassing #progressbarforpercentagepassingbar{
+	line-height: 70px;
+	height: 78px;
+	font-family:"Futura Pt Demi"; 
+	font-size: 24px;
+	color: #FFf;
+	border-radius: 6px 6px 0 0;
+	background-color: #313166 !important;
+}
+.overview-content .pccorequestionsbyquiztable #panelquestionsdiv p{
+	font-size: 22px;
+	color: #313166;
+	Line-height: 32px;
+}
+
+.overview-content table.pccorequestionsbyquiztable tbody>tr:nth-child(odd)>td,
+.overview-content table.pccorequestionsbyquiztable tbody>tr:nth-child(odd)>th{
+	background-color: transparent;
+	border: 1px solid rgb(84 84 84 / 40%);
+
+}
+.averview-content table.pccorequestionsbyquiztable tbody tr td label p{
+	margin-bottom: 0;
+	color: #4D4D4D;
+	font-size: 18px;
+	line-height: 26px;
+	text-transform: capitalize;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td::first-child{
+  width: 5%;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td{
+  border-radius: none !important;
+  vertical-align: middle;
+  height: 60px;
+  line-height: 24px;
+}
+
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td{
+	border: 0px !important;
+}
+
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label{
+	display: flex;
+	margin-right: 10px;
+	align-items: center;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label p{
+	margin-bottom: 0;
+	font-size: 18px;
+	line-height: 26px;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr{
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+	border: 1px solid rgb(84 84 84 / 20%);
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input{
+  height: 18px;
+  width: 18px;
+  flex: 0 0 17px;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input[type='radio']{
+  height: 14px;
+  width: 14px !important;
+  display: flex;
+  position: relative;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input[type='checkbox']{
+  position: relative;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input[type='radio']:after{
+	width: 18px !important;
+	height: 18px;
+	flex: 0 0 18px;
+	border-radius: 18px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: #fff;
+	content: "";
+	display: inline-block;
+	visibility: visible;
+	margin: 1px;
+	border: 2px solid #E0E0E0;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input[type='radio']:checked:after{
+	width: 14px;
+	height: 14px;
+	flex: 0 0 14px;
+	border-radius: 18px;
+	top: -1px;
+	left: 0px;
+	position: relative;
+	background-color: #6CA08F;
+	content: "";
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid #fff;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input[type='radio']:checked:before {
+	width: 18px;
+	height: 18px;
+	flex: 0 0 18px;
+	border-radius: 18px;
+	top: -2px;
+	right: 0;
+	left: -1px;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	background-color: #6CA08F;
+	content: "";
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid #6CA08F;
+}
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label input[type='checkbox']:checked:before {
+	width: 18px;
+	height: 18px;
+	flex: 0 0 18px;
+	top: 0px;
+	right: 0;
+	left: 0px;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	background-color: #6CA08F;
+	content: "\f00c";
+	font-size: 12px;
+	border-radius: 2px;
+	color: #fff;
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	display: inline-block;
+	visibility: visible;
+}
+
+.overview-content p a{ 
+	text-decoration: none;  
+	font-weight: 300; 
+	transition: all .3s;
+}
+.overview-content iframe{ 
+	padding : 15px 0; 
+	max-width : 595px !important; 
+}
+
+/*Link Text*/
+.link-text .elementor-text-editor p{
+	margin-bottom: 0;
+}
+.link-text .elementor-text-editor p a{
+	text-decoration: none;
+	transition: all .3s;
+}
+.link-text .elementor-text-editor p a:hover{
+  color: #313166;
+}
+
+
+/*Button Css*/
+.next-btn #nextbutton button.button,
+.overview-content .pccorequestionsbyquiztable #submitdivforquestionsforquiz input[type="button"],
+.overview-content #previousnextdivforquestionsforquiz input[type="button"]#submitquestionbtnnext,
+.overview-content #completedquizdiv button.button{ 
+	padding : 14px 40px !important; 
+	background : #313166; 
+	border-radius : 6px; 
+	color : #fff; 
+	border : none;
+}
+.next-btn #nextbutton button.button:hover,
+.overview-content .pccorequestionsbyquiztable #submitdivforquestionsforquiz input[type="button"]:hover,
+.overview-content #previousnextdivforquestionsforquiz input[type="button"]#submitquestionbtnnext:hover,
+.overview-content #completedquizdiv button.button:hover{ 
+	background: #6ca08f;
+}
+
+.next-btn #nextbutton button.button:focus,
+.overview-content .pccorequestionsbyquiztable #submitdivforquestionsforquiz input[type="button"]:focus,
+.overview-content #previousnextdivforquestionsforquiz input[type="button"]#submitquestionbtnnext:focus,
+.overview-content #completedquizdiv button.button:focus{ 
+	outline: none;
+}
+
+.overview-content input[type="button"]#resetallquestionsforquizAllgroups{
+	  border-radius: 6px;
+	  margin: 5px 0;
+}
+.overview-content input[type="button"]#resetallquestionsforquiz{
+  background-color: #313166 !important;
+  border-radius: 6px;
+  cursor: pointer;
+   margin: 5px 0;
+  color: #fff;
+  border: 1px solid #313166 !important;
+} 
+.overview-content input[type="button"]#resetallquestionsforquiz:hover{
+  background-color: transparent !important;
+  color: #313166;
+  border-radius: 6px;
+  border: 1px solid #313166 !important;
+}
+
+.overview-content .is-layout-flex.wp-block-buttons .wp-block-button a.wp-block-button__link{
+    border-radius: 6px;
+    margin-top: 15px;
+    transition: all .3s;
+    color: #fff;
+    text-decoration: none !important;
+    background-color: #6CA08F !important;
+
+}
+.overview-content .is-layout-flex.wp-block-buttons .wp-block-button a.wp-block-button__link:hover{
+	 background-color: #313166 !important;
+}
+
+/*progress Streaktable*/
+
+.overview-content #numberofrightsinarowoutof table.streaktable tbody tr td{
+	 height: 20px !important;
+	 padding: 0;
+	 border-color: #E0E0E0;
+	 background-color: #F9FCFF;
+}
+.overview-content #numberofrightsinarowoutof table tbody tr td{
+  border-color: #E0E0E0;
+}
+.overview-content #numberofrightsinarowoutof table tbody tr td p{
+  font-size: 16px;
+  color: #4D4D4D;
+}
+.overview-content #numberofrightsinarowoutof table.streaktable,
+.overview-content #numberofrightsinarowoutof table.streaktable tbody tr{
+	border-radius: 6px;
+	overflow: hidden;
+}
+.overview-content #numberofrightsinarowoutof table.streaktable tbody tr td:first-child{
+	border-radius: 6px 0px 0 6px;
+}
+.overview-content #numberofrightsinarowoutof table.streaktable tbody tr td:last-child{
+	border-radius: 0px 6px 6px 0px;
+}
+
+/*Modal Poppuo Css*/
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal{
+  background-color: rgb(0 0 0 / 50%) !important;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content{
+  padding: 30px;
+  width: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 10px;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content br{
+	  display: none;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-message#pccorefrontendmessage-messageid{
+	  padding: 0 0 0 30px !important;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content .pccorefrontendmessage-close{
+    color: #EB5757;
+    margin: -20px -17px 0px 0;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content .que-ans-mas{
+	  display: flex;
+    align-items: center;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content .que-ans-mas img#maybe-next-time-img{
+	background-color: #F9FCFF;
+	padding: 20px;
+}
+.overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content .que-ans-mas img#TA-Balloons-01-img{
+	background-color: #F9FCFF;
+	padding: 20px;
+}
+
+
+
+/*Faq*/
+.faq-section .elementor-toggle .elementor-toggle-item .elementor-tab-title{
+  border-radius: 6px;
+  background-color: transparent !important;
+  border: 1px solid #313166 !important;
+}
+.faq-section .elementor-toggle .elementor-toggle-item .elementor-tab-title.elementor-active{
+  background-color: #6CA08F !important;
+  border: 1px solid #6CA08F !important;
+}
+.faq-section .elementor-toggle .elementor-toggle-item .elementor-tab-content.elementor-active p{
+	margin-bottom: 0;
+}
+.faqs-main-section .elementor-accordion .elementor-accordion-item .elementor-tab-title.elementor-active{
+
+}
+.faqs-main-section #elementor-tab-title-2591 a.elementor-accordion-title{
+	 padding-bottom: 15px;
+	 margin-bottom: 15px;
+	 display: block;
+	 border-bottom: 1px solid #313166 !important;
+}
+.faqs-main-section #elementor-tab-content-2591.elementor-tab-content.elementor-clearfix{
+	display: block !important;
+	transition: all .3s;
+}
+.faqs-main-section #elementor-tab-content-2591.elementor-tab-content.elementor-clearfix.elementor-active{
+  display: none !important;
+  transition: all .3s;
+}
+.faqs-main-section .elementor-accordion-icon.elementor-accordion-icon-right i{
+  font-size: 20px;
+  margin-top: 18px;
+}
+
+
+/*Gallery*/
+.img-gallery .gallery{
+  text-align: center ;
+}
+.img-gallery .gallery .gallery-item .gallery-icon a img{
+	  transition: all .3s;
+}
+.img-gallery .gallery .gallery-item .gallery-icon a img:hover{
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+/*Students User Info*/
+.students-user-info h3{
+	  margin: 0 0 20px;
+  	font-size : 28px; 
+  	line-height: 38px;
+  	color: #313166;
+	  font-family : "Futura Pt Demi"; 
+}
+.students-user-info .elementor-text-editor table{
+	  border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #000;
+}
+.students-user-info .elementor-text-editor table thead{
+	background-color: #fff;
+}
+.students-user-info .elementor-text-editor table thead tr{
+	border: 1px solid #E0E0E0 !important;
+}
+.students-user-info .elementor-text-editor table thead tr th::last-child{
+	border-right: 1px solid #E0E0E0 !important;
+}
+.students-user-info .elementor-text-editor table thead tr th{
+  text-align: left;
+  border: none;
+  border-top: 1px solid #E0E0E0 !important;
+  color: #313166;
+  font-size: 18px;
+  line-height: 28px;
+}
+.students-user-info .elementor-text-editor table tbody tr td{
+	border: none;
+	vertical-align: middle;
+	background-color: #F9FCFF;
+}
+
+.students-user-info .elementor-text-editor table tbody tr{
+	border: 1px solid #E0E0E0;
+}
+.students-user-info .elementor-text-editor table tbody tr td h4 {
+	line-height: 28px;
+	font-size: 18px;
+	margin: 0;
+	color: #313166;
+}
+.students-user-info .elementor-text-editor table tbody tr td label{
+	line-height: 38px;
+	font-size: 18px;
+	margin-right: 10px;
+	color: #313166;
+}
+.students-user-info .elementor-text-editor table tbody tr td .tooltip{
+	border-bottom: none;
+}
+.students-user-info .elementor-text-editor table tbody tr td .tooltip input[type=text]{
+	color: #6CA08F;
+	border: 1px solid #E0E0E0;
+	border-radius: 6px;
+}
+
+.students-user-info .elementor-text-editor table tbody tr td form button:hover,
+.students-user-info .elementor-text-editor table tbody tr td input[type=button]:hover{
+	  color: #FFFFFF;
+    background-color: #6CA08F;
+}
+.students-user-info .elementor-text-editor table tbody tr td form button:focus,
+.students-user-info .elementor-text-editor table tbody tr td input[type=button]:focus{
+  outline: none;
+}
+.students-user-info .elementor-text-editor table tbody tr td form button,
+.students-user-info .elementor-text-editor table tbody tr td input[type=button]{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #313166;
+    border-radius: 6px 6px 6px 6px;
+}
+.students-user-info .elementor-text-editor table tbody tr.user-footer-bottom td{
+	width: 50%;
+	background-color: #fff;
+}
+.students-user-info .elementor-text-editor table tbody tr td input[type=text]{
+   border-radius: 6px;
+   border: 1px solid #E0E0E0;
+   background-color: #F9FCFF;
+}
+.students-user-info .elementor-text-editor table tbody tr.user-footer-bottom{
+}
+.students-user-info .elementor-text-editor table tbody tr.user-footer-bottom td label{
+  display: flex;
+  flex: 0 0 110px;
+}
+.students-user-info .elementor-text-editor table tbody tr.user-footer-bottom td .user-groups-footer-bottom{
+  display: flex;
+}
+.students-user-info .elementor-text-editor table tbody tr.user-footer-bottom td:first-child:after{
+	position: inherit;
+}
+.students-user-info .elementor-text-editor table tbody tr td:first-child:after{
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	width: 4px;
+	height: 100%;
+	background-color: #313166;
+}
+.students-user-info .elementor-text-editor table tbody tr td:first-child{
+	position: relative;
+}
+
+/*Teaching Resources*/
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container{
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header{
+  border-radius: 6px 6px 0 0;
+  padding: 8px 16px;
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-refresh.entry-info-button,
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-gear.entry-info-button,
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-sort.entry-info-button,
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-search.entry-info-button{
+   border-radius: 6px !important;
+   border: 1px solid #E0E0E0;
+   color: #313166;
+   padding: 24px 20px !important;
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-home.entry-info-button{
+   background-color: transparent;
+   margin-left: 0 !important;
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-home.entry-info-button:hover{
+   background-color: transparent !important;
+   color: #6CA08F !important;
+}
+.overview-content #UseyourDrive ol.wpcp-breadcrumb>li a:hover{
+ 	 background-color: transparent !important;
+	 color: #6CA08F !important;
+}
+.overview-content #UseyourDrive ol.wpcp-breadcrumb>li a{
+  font-family : "Joanna Nova W06 Regular";
+  font-size: 16px; 
+}
+.overview-content #UseyourDrive ol.wpcp-breadcrumb>li a.folder.current_folder,
+.page.page-id-5112 .site-main.post-5112 #UseyourDrive ol.wpcp-breadcrumb>li a{
+  color: #6CA08F !important;
+}
+
+.overview-content #UseyourDrive .nav-header .entry-info-button:hover,
+.page.page-id-5112 .site-main.post-5112 #UseyourDrive .nav-header .entry-info-button:hover{
+	 background-color: #6CA08F !important;
+	 color: #ffffff !important;
+}
+.overview-content #UseyourDrive .tippy-box, .UseyourDrive .tippy-box{
+  box-shadow: none !important;
+}
+.overview-content #UseyourDrive .search-input{
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid #E0E0E0;
+  height: 50px;
+  padding: 10px 35px !important;
+  border-radius: 6px;
+}
+.overview-content #UseyourDrive input[type=text]:focus{
+  border-color:#E0E0E0 !important;
+}
+.overview-content #UseyourDrive .search-div{
+  padding: 0;
+}
+
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header a{
+	display: inline-block;
+	transition: all .3s;
+	margin-left: 10px !important;
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .ajax-filelist .files.has-breadcrumb .folders-container .entry {
+  border-bottom: 1px solid #E0E0E0 !important;
+  font-family : "Futura Pt Demi"; 
+  box-shadow: none;
+  padding: 15px 30px;
+  border-radius: 0 !important;
+  margin: 0;
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .ajax-filelist .files.has-breadcrumb .folders-container .entry .entry-info .entry-info-name a,
+.overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .ajax-filelist .files.has-breadcrumb .folders-container .files .entry,
+.overview-content #UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name a,
+.overview-content #UseyourDrive .entry-info-modified-date,
+#UseyourDrive .entry-info-modified-date, .UseyourDrive .entry-info-modified-date{
+  font-family : "Joanna Nova W06 Regular" !important; 
+  font-weight: 400 !important;
+  font-size: 16px !important;
+} 
+
+.overview-content #UseyourDrive .files .ajax-filelist{
+	padding: 0;
+	font-family : "Joanna Nova W06 Regular" !important; 
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+.overview-content #UseyourDrive .files .entry{
+  margin: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #E0E0E0 !important;
+  font-family : "Joanna Nova W06 Regular"; 
+    border-radius: 0 !important;
+  padding: 15px 30px;
+}
+.overview-content #UseyourDrive .files .entry.file:last-child{
+	border-bottom:none !important;
+	border-radius: 0 0 6px 6px !important;
+}
+ .overview-content #UseyourDrive .entry.popupopen,
+ .overview-content #UseyourDrive .entry:not(.no-entries):hover{
+   background-color: #6CA08F;
+ }
+
+ #UseyourDrive .hasfocus:not(.no-entries), 
+ #UseyourDrive .isdragged, 
+ #UseyourDrive .isselected, #UseyourDrive .popupopen{
+   transform:inherit !important;
+   border: none !important;
+ }
+ #UseyourDrive .entry:hover .entry-info-button{
+ 	height: 20px !important;
+ 	width: 20px !important;
+ }
+
+ .overview-content #UseyourDrive .entry:not(.no-entries):hover .entry_link{
+ 	 font-weight: 400;
+ }
+
+.overview-content #UseyourDrive .tippy-content{
+   background-color: #ffffff;
+   border-radius: 6px;
+   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10) !important;
+}
+#UseyourDrive .tippy-content ul, .UseyourDrive .tippy-content ul{
+	 box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04) !important;
+}
+
+.UseyourDrive .tippy-content ul li.has-menu.menu-opened ul{
+	 box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04) !important;
+	 background-color: transparent !important;
+	 margin-top: 20px !important;
+}
+#UseyourDrive [data-layout=list] .entry-info-icon, .UseyourDrive [data-layout=list] .entry-info-icon{
+	margin: 0 15px 0 0 !important;
+}
+
+
+
+#UseyourDrive .tippy-content li, 
+.UseyourDrive .tippy-content li{
+  padding: 0 15px !important;
+  margin: 8px 0 !important;
+}
+.overview-content #UseyourDrive .tippy-content li>a,
+.overview-content .UseyourDrive .tippy-content li>a,
+.overview-content #UseyourDrive .tippy-content li>a.sort-selected{
+	font-family : "Joanna Nova W06 Regular";
+	font-size: 16px;
+	line-height: 22px;
+  font-weight: normal;
+  border-radius: 6px;
+}
+.overview-content #UseyourDrive .tippy-content li>a.sort-selected{
+	background-color: #F9FCFF;
+	color: #313166;
+}
+.overview-content #UseyourDrive .tippy-content li>a:hover, .UseyourDrive .tippy-content li>a:hover{
+	background-color: #F9FCFF;
+	color: #313166;
+}
+
+.page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .folders-container .entry,
+.page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .files-container .entry{
+   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04) !important;
+   border: 1px solid rgb(46 94 125 / 15%) !important;
+   border-radius: 6px !important;
+   padding: 10px !important;
+   margin: 10px !important;
+   width: 378px !important;
+}
+
+.overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .files-container .entry .entry-info{
+   border-top: 1px solid rgb(46 94 125 / 15%) !important;
+   margin-top: 15px;
+   padding-top: 10px;
+}
+.overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .folders-container .entry .entry-info-button:hover{
+  background: transparent !important;
+}
+#UseyourDrive .button.secondary, .UseyourDrive .button.secondary{
+	color: #313166 !important;
+}
+
+.overview-content #UseyourDrive .loading, #UseyourDrive .loading.search {
+    background-color: rgb(221 175 87 / 50%);
+}
+
+
+/*My Progress*/
+.my-progress-skill h2,
+.my-progress-skill h3{
+   color: #313166;
+   font-family: "Futura Pt Demi";
+   margin-bottom: 25px;
+}
+.my-progress-skill h3.csv-download-btn{
+   display: flow-root;
+}
+.my-progress-skill table tbody tr td{
+	font-family: "Futura Pt Medium";
+	font-size: 20px;
+  line-height: 29px;
+  padding: 25px 30px;
+  text-align: center;
+	color: #000;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04) !important;
+}
+.my-progress-skill table td, .my-progress-skill table th{
+   border: 1px solid #E0E7EC !important;
+}
+.my-progress-skill .standards table.standards thead tr.standards td.standards{
+  text-align: center;
+	color: #000;
+	font-size: 20px;
+	line-height: 29px;
+	padding: 20px !important;
+
+}
+.my-progress-skill .standards table.standards thead tr.standards [data-tooltip]:before{
+	height: 30px;
+}
+.my-progress-skill .standards table.standards tbody tr td{
+	padding: 30px;
+}
+.my-progress-skill table.progress-table{
+	border-radius: 6px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.my-progress-skill table.progress-table thead tr th{
+   color: #fff;
+   text-align: left;
+   font-family: "Futura Pt Demi";
+   font-size: 18px;
+   line-height: 30px;
+   padding: 20px 30px;
+   border: none !important;
+   background-color: #313166;
+} 
+.my-progress-skill table.progress-table thead tr td{
+   font-family: "Futura Pt Book";
+   vertical-align: middle;
+   font-size: 18px;
+   line-height: 28px;
+   padding: 12px 30px;
+}
+.my-progress-skill table.progress-table thead tr td input[type="button"]{
+    background-color: #313166;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 6px 38px;
+    border-radius: 6px;
+}
+.my-progress-skill table.progress-table thead tr td input[type="button"]:hover{
+	background-color: #6ca08f;
+	border-color: #6ca08f;
+}
+.my-progress-skill table.progress-table thead tr td input[type="button"]:focus{
+ outline: none;
+}
+.my-progress-skill table.progress-table thead tr{
+	   border: 1px solid #E0E7EC !important;
+}
+.my-progress-skill table.progress-table thead tr td{
+	 border: none !important;
+}
+.my-progress-skill table.progress-table thead tr:nth-of-type(odd) {
+    background-color: #F9FCFF;
+}
+
+.my-progress-skill.studentprogessmodal-student p{
+    color: #313166;
+    font-family: "Futura Pt Demi";
+    font-size: 28px !important;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header{
+  padding: 16px 40px 16px 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #313166;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+  transition: all .3s;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header .ui-icon{
+  background-image: none;
+  display: none;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header:after{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f063";
+}
+.my-progress-skill .ui-state-active, .my-progress-skill .ui-widget-content .ui-state-active, .my-progress-skill .ui-widget-header .ui-state-active, .my-progress-skill a.ui-button:active, .my-progress-skill .ui-button:active, .my-progress-skill .ui-button.ui-state-active:hover {
+    border: 1px solid #313166;
+    background: #313166;
+    font-weight: normal;
+    color: #ffffff;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header:hover,
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header.ui-state-active{
+	 background-color: #6CA08F;
+	 border: 1px solid #6CA08F;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header.ui-state-active{
+	border-radius: 6px 6px 0 0;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr td,
+.my-progress-skill .studentprogessmodal-student table tbody tr td{
+  padding: 15px 30px;
+  width: 100%;
+  background-color: transparent;
+  text-align: left !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr,
+.my-progress-skill .studentprogessmodal-student table tbody tr{
+	  border-right: 1px solid rgb(46 94 125 / 15%) !important;
+    border-left: 1px solid rgb(46 94 125 / 15%) !important;
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr.preobjnei td,
+.my-progress-skill .studentprogessmodal-student table tbody tr.preobjnei td{
+  border-right: 1px solid rgb(46 94 125 / 15%) !important;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr.preobjnei td:last-child,
+.my-progress-skill .studentprogessmodal-student table tbody tr.preobjnei td:last-child{
+  border-right: none !important;
+}
+
+.my-progress-skill .studentprogessmodal-student hr{
+	 margin: 30px 0;
+	 border: 1px solid rgb(46 94 125 / 15%) !important;
+}
+
+.my-progress-skill .studentprogessmodal-student table tbody tr td div,
+.my-progress-skill .studentprogessmodal-student p,
+.my-progress-skill .studentprogessmodal-student p span{
+	  text-align: left !important;
+	 font-size: 16px;
+	 line-height: 26px;
+	 font-family: "Joanna Nova W06 Regular" !important;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr td label p,
+.my-progress-skill .studentprogessmodal-student table tbody tr td label p{
+  margin-bottom: 0;
+}
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr td p,
+.my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr td p span,
+.my-progress-skill .studentprogessmodal-student table tbody tr td label p,
+.my-progress-skill .studentprogessmodal-student table tbody tr td label p span{
+	 font-size: 16px;
+	 line-height: 26px;
+	 font-family: "Joanna Nova W06 Regular" !important;
+}
+.my-progress-skill select#teachersviewforgroup2combo{
+    border-radius: 6px !important;
+    border: 1px solid rgb(46 94 125 / 15%) !important;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+    height: 60px;
+    width: 575px !important;
+    margin-top: 10px;
+}
+.my-progress-skill button:focus{
+	outline: none;
+}
+.my-progress-skill button{
+    padding: 14px 40px !important;
+    background: #313166;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 6px;
+    color: #fff !important;
+    border: none !important;
+    margin: 0 20px 20px 0;
+}
+.my-progress-skill button:hover{
+   background: #6CA08F !important;
+}
+.my-progress-skill button#download-button{
+	background: #6CA08F !important;
+}
+.my-progress-skill button#download-button:hover{
+  background: #313166 !important;
+}
+.my-progress-skill .inner table.data tbody tr th,
+.my-progress-skill .inner table.data tbody tr td{
+  font-size: 20px;
+  height: 60px;
+  vertical-align: middle;
+  font-weight: 500 !important;
+  line-height: 40px;
+  padding: 10px 30px !important;
+  font-family: "Futura Pt Medium";
+  border: 1px solid rgb(46 94 125 / 15%) !important;
+  background-color: transparent !important;
+}
+.my-progress-skill .inner table.data tbody tr th{
+	  font-size: 18px;
+	  height: 61px;
+	  padding: 10px 15px !important;
+}
+.my-progress-skill .inner table.data tbody tr td{
+	background-color: #F9FCFF !important;
+}
+
+/*Glossary Concepts*/
+.overview-content .glossary-concepts{
+	padding: 40PX;
+	background-color: #F9FCFF;
+	border: 1PX solid rgb(46 94 125 / 15%);
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+.overview-content .glossary-concepts h3.title{
+	  font-size: 36px;
+	  line-height: 46px;
+    color: #313166;
+    font-family: "Futura Pt Demi";
+    margin:0 0 15px;
+}
+.overview-content .glossary-concepts ul{
+	padding-left: 16px;
+}
+.overview-content .glossary-concepts ul li ul{
+	margin-top: 20px;
+}
+.overview-content .glossary-concepts ul li{
+	margin-bottom: 15px;
+}
+
+.glossary-concepts figure table.has-fixed-layout,
+.glossary-concepts figure table,
+.points-section table{
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04) !important;
+	border-radius: 6px;
+  overflow: hidden;
+}
+.glossary-concepts figure table.has-fixed-layout tbody tr td,
+.glossary-concepts figure table tbody tr td,
+.points-section table tbody tr td{
+ 	border: none;
+ 	font-size: 18px;
+ 	padding: 11px 30px;
+ 	background-color: #F9FCFF !important;
+}
+.glossary-concepts figure table.has-fixed-layout tbody tr,
+.glossary-concepts figure table tbody tr,
+.points-section table tbody tr {
+	border: 1PX solid rgb(46 94 125 / 15%);
+}
+.glossary-concepts figure table tbody>tr:nth-child(odd)>td, 
+.glossary-concepts figure table tbody>tr:nth-child(odd)>th,
+.points-section table tbody>tr:nth-child(odd)>td, 
+.points-section table tbody>tr:nth-child(odd)>th{
+  background-color: #FFFFFF !important;
+}
+.glossary-concepts figure table.has-fixed-layout thead tr th,
+.glossary-concepts figure table thead tr th,
+.points-section table thead tr td{
+  background-color: #313166;
+  color: #fff;
+  font-family: "Futura Pt Demi";
+  font-size: 18px;
+  line-height: 29px;
+  padding: 20px 30px;
+  text-align: left;
+  border: none;
+}
+.glossary-concepts p{
+	margin-bottom: 0;
+}
+
+.glossary-concepts.structure-types p{
+	margin-bottom: 30px;
+}
+
+/*My Points*/
+h3.my-points-title,
+.points-section h3{
+	 font-family: "Futura Pt Demi";
+   font-size: 32px;
+   line-height: 42px;
+   color: #313166;
+   margin: 0 0 15px;
+   word-break: break-word;
+}
+
+/* Form*/
+/*Teacher Resource Folder*/
+.memberpressproduct.type-memberpressproduct {
+   border-radius: 6px;
+   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+   border: 1px solid rgb(46 94 125 / 15%);
+   padding: 35px;
+}
+.memberpressproduct.type-memberpressproduct .page-header h1.entry-title{
+  font-size: 42px;
+  line-height: 56px;
+  color: #313166;
+  margin: 0 0 30px;
+}
+.memberpressproduct.type-memberpressproduct .mp-form-row.mepr_bold.mepr_price{
+	margin-bottom: 30px !important;
+}
+.memberpressproduct.type-memberpressproduct .mp-form-row.mepr_bold.mepr_price,
+.memberpressproduct.type-memberpressproduct form.mepr-signup-form.mepr-form .mp-form-row .mp-form-label label{
+  color: #4D4D4D;
+  font-family: "Joanna Nova W06 Regular" !important;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  display: inline-block !important;
+}
+.memberpressproduct.type-memberpressproduct form.mepr-signup-form.mepr-form .mp-form-row .mp-form-label span{
+  font-family: "Joanna Nova W06 Regular" !important;
+  font-size: 16px;
+}
+.memberpressproduct.type-memberpressproduct .mp-form-row{
+	margin-bottom: 15px !important;
+}
+.memberpressproduct.type-memberpressproduct .mp-form-row input{
+	border-radius: 6px !important;
+	border: 1px solid rgb(46 94 125 / 15%) !important;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+	height: 60px;
+}
+.memberpressproduct.type-memberpressproduct iframe input{
+	border-radius: 6px !important;
+	border: 1px solid rgb(46 94 125 / 15%) !important;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+	height: 60px;
+}
+.memberpressproduct.type-memberpressproduct .mp-form-submit input.mepr-submit{
+    padding: 14px 40px !important;
+    background: #313166;
+    border-radius: 6px;
+    font-family: "Joanna Nova W06 Regular" !important;
+    color: #fff;
+    border: none;
+}
+.memberpressproduct.type-memberpressproduct .mp-form-submit input.mepr-submit:hover{
+    background: #6ca08f;
+}
+.memberpressproduct.type-memberpressproduct .iti--separate-dial-code .iti__selected-flag{
+  background-color: #F9FCFF !important;
+  border-right: 1px solid rgb(46 94 125 / 15%) !important;
+  padding: 0 40px;
+}
+.memberpressproduct.type-memberpressproduct .iti--separate-dial-code{
+  width: 400px;
+  border-radius: 6px;
+  border: 1px solid rgb(46 94 125 / 15%) !important;
+}
+.memberpressproduct.type-memberpressproduct .iti--separate-dial-code input{
+  border: none !important;
+}
+.LightboxModalSize{
+	width: 620px !important;
+}
+.u-themeLinkLight .la-Button.u-modalPrimary{
+	  background-color: #F9FCFF !important;
+}
+
+/*Lesson - How to Use MindMup*/
+
+.single-lessons .overview-content figure.wp-block-pullquote{
+  background-color: #F9FCFF;
+}
+.single-lessons .overview-content p a{
+	color: #6CA08F;
+}
+.single-lessons .overview-content mark{
+	color: #6CA08F !important;
+}
+.single-lessons .overview-content ul,
+.single-chapters .overview-content ul{
+ padding-left: 22px;
+}
+.single-lessons .overview-content ul li,
+.single-chapters .overview-content ul li{
+	margin-bottom: 10px;
+}
+.single-lessons .overview-content ul li::marker,
+.single-chapters .overview-content ul li::marker{
+	font-size: 20px;
+	color: #313166;
+}
+.single-lessons .overview-content ul li ul{
+  margin-top: 10px;
+}
+
+/*Mastery Check Results*/
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor table tbody tr td a{
+	 font-size: 18px;
+	 color: #fff;
+	 text-decoration: none;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor ul{
+	display: inline-block;
+	padding: 0;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor ul li{
+	display: block;
+	margin-bottom: 10px;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor table tbody tr [id*='answercontentforselect_'] label p{
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor h2{
+   	font-family : "Futura Pt Demi"; 
+   	font-size: 30px;
+   	color: #fff;
+   	line-height: 40px;
+   	background-color: #313166;
+   	border-radius: 6px 6px 0 0;
+   	margin: 0;
+   	padding: 15px 50px;
+}
+
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor table.result-table{
+	 border-radius: 6px;
+	 overflow: hidden;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor table.result-table tbody tr td{
+  border: 1px solid #313166;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box{
+	border: 1px solid rgb(46 94 125 / 15%);
+	border-radius: 6px;
+	margin-bottom: 40px;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box{
+  padding:40px;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table{
+	border: none !important;
+	margin-bottom: 0;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr{
+	display: flex;
+	margin-bottom: 20px;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgb(84 84 84 / 20%);
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr.preobjnei{
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr:last-child{
+	margin-bottom: 0;
+  box-shadow: inherit;
+  border: none;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td label{
+	line-height: 30px;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td label [type="checkbox"], 
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td label [type="radio"]{
+  height: 18px;
+  width: 15px !important;
+  vertical-align: middle;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td{
+ border: none !important;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td.quiz-feeback-row,
+.single-quizzes .overview-content .pccorequestionsbyquiztable .premise-objection-table .quiz-table-box table tbody tr td.quiz-feeback-row,
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.quiz-feeback-row{
+  background-color: transparent;
+  font-size: 22px;
+  border: 0;
+  color: #313166;
+  font-family: JoannaNovaW06-Medium;
+  line-height: 33px;
+  padding: 10px 0 0;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor table tbody tr.quiz-feeback-detail td.quiz-feeback-row p a{
+  color: #6CA08F;
+}
+
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td{
+	 font-size: 16px;
+	 line-height: 26px;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.quiz-feeback-detail{
+  box-shadow: inherit;
+  border: none !important;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.quiz-feeback-row p{
+	margin-bottom: 0;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.ans-dif{
+	padding: 0;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.ans-dif p{
+	font-size: 16px;
+	padding: 10px;
+	line-height: 26px;
+	margin-bottom: 0px;
+	font-family: JoannaNovaW06-Medium;
+	border-radius: 6px 6px 0 0;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.ans-dif p:last-child{
+	padding: 0px;
+}
+
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.ans-dif-title{
+	margin-bottom: 0;
+	border: none;
+}
+
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.preobjnei{
+	margin-bottom: 0;
+	box-shadow: inherit;
+	border: none;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.preobjnei td,
+.quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td{
+	padding: 60px;
+	height: auto;
+	background-color: #fff;
+	border: 1px solid rgb(84 84 84 / 20%) !important;
+	border-top: none !important;
+}
+
+
+.single-quizzes .overview-content [id*='pccorequestionsviewbyquizbody2_'] #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td{
+	font-size: 16px;
+	line-height: 26px;
+	border-right: 1px solid rgb(84 84 84 / 20%) !important;
+}
+
+.single-quizzes .overview-content [id*='pccorequestionsviewbyquizbody2_'] #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td:last-child{
+  border-right: none !important;
+}
+.single-quizzes .overview-content [id*='pccorequestionsviewbyquizbody2_'] #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box .quiz-question-text p{
+ text-align: left !important;
+}
+
+
+
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box p{
+	margin: 0;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box .quiz-question-text p{
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: #313166;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box{
+	  border: 2px solid #C9573C !important;
+	  color: #313166 !important;
+	  padding: 0px;
+	  font-size: 20px;
+	  padding: 0px !important;
+    border-radius: 6px;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box h3{
+	font-size: 26px;
+	line-height: 36px;
+	font-family: JoannaNovaW06-Medium;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box h2{
+  font-size: 42px;
+  line-height: 56px;
+  background-color: transparent;
+  color: #313166;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor hr{
+  color: #F2F2F2;
+  margin: 30px 0;
+  border: 1px solid #F2F2F2;
+  background-color: #F2F2F2;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor #scoresection h4{
+  color: #313166;
+  font-weight: 600;
+  font-family: JoannaNovaW06-Medium;
+  font-size: 26px;
+  margin-top: 0;
+}
+.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor #scoresection ul li{
+  color: #313166;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+/*Quiz - Premise Objection or Neither*/
+.single-quizzes .pccorequestionsbyquiztable #panelquestionsdiv .premise-question-content{
+	margin-bottom: 20px;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelquestionsdiv .premise-question-content p,
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table .quiz-table-box .quiz-question-text p{
+  text-align: left !important;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  color: #313166;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table{
+	border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #E0E0E0 !important;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr td.sorting-title {
+  background-color: #313166 !important;
+  color: #fff;
+  font-family : "Futura Pt Medium"; 
+  font-size: 24px;
+  line-height: 33px;
+  padding: 18px 20px;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr#sortingelementsrow td{
+  background-color: #F9FCFF;
+  border-right: 1px solid #E0E0E0 !important;
+  padding: 20px;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr#sortingelementsrow td:last-child{
+	 border-right:none !important;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr#sortingelementsrow td div.sortIt,
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td.droppablequestion div[id*='span_draggablediv1_']{
+  padding: 20px !important;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 auto;
+  position: relative;
+  height: auto !important;
+  color: #4D4D4D !important;
+  border: 1px solid #E0E0E0;
+  background-color: #fff !important;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td.droppablequestion div[id*='span_draggablediv1_'] .pccore_undodrop.numberCircle{
+  position: absolute;
+  right: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: inherit;
+  top: 2px;
+  color: #313166 !important;
+  font-size: 18px !important;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td[id*='creteriaonleft_'] {
+	font-size: 16px;
+	padding: 40px;
+	border-bottom: 1px solid #E0E0E0 !important;
+	border-right: 1px solid rgb(84 84 84 / 50%) !important;
+	color: #313166 !important;
+  line-height: 26px;
+  background-color: #fff;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_']{
+	box-shadow: inherit;
+	border: none;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td[id*='droppablediv2_']{
+	border-bottom: 1px solid rgb(84 84 84 / 20%) !important;
+	background-color: #fff;
+}
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_']:last-child td[id*='droppablediv2_'],
+.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_']:last-child td[id*='creteriaonleft_']{
+	border-bottom: none !important;
+}
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table{
+  padding: 40px;
+  border-radius: 0px 0px 6px 6px;
+}
+.single-quizzes.postid-1842 .pccorequestionsbyquiztable .premise-objection-table{
+  background-color: #F9FCFF;
+  border-radius: 6px;
+}
+
+.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] p[id*='feedbackfor_'] .quiz-table-box table tbody tr{
+    display: inline-table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/*Optional Diagnostic --> https://stage.course.thinkeranalytix.org/quiz/diagnostic/*/
+.single-quizzes .overview-content input#skipbuttondiag{
+  background-color: #DEB058 !important;
+  border: 1px solid #DEB058;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+}
+.single-quizzes .overview-content input#skipbuttondiag:hover{
+	background-color: #313166 !important;
+  border: 1px solid #313166;
+}
+.single-quizzes .overview-content input#skipbuttondiag:focus{
+	outline: none;
+}
+/*Optional Diagnostic Allfeedback*/
+.single-quizzes .overview-content [id*='pccorequestionsviewbyquizbody2_'] #allquestionfeedbackdivfor #allfeedbackfor .table-responsive.score{
+	 overflow-x: scroll;
+}
+.single-quizzes .overview-content [id*='pccorequestionsviewbyquizbody2_'] #allquestionfeedbackdivfor #allfeedbackfor .table-responsive.score table.result-table{
+	 width: 1360px;
+}
+
+
+/*Feedback Survey*/
+.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table{
+  border: none !important;
+}
+.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table tbody tr{
+	box-shadow: inherit;
+	border: none !important;
+}
+.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table tbody tr td{
+	padding: 0;
+}
+.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table tbody tr td textarea,
+.overview-content table.pccorequestionsbyquiztable tbody tr td table tr td.com-feed{
+	border-radius: 6px;
+	background-color: #fff;
+	border: 1px solid rgb(84 84 84 / 20%);
+}
+.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table tbody tr td textarea:focus{
+ outline: none;
+}
+
+body:not([class*=elementor-page-]) .site-main{
+
+   max-width: 1300px !important;
+   margin: 100px 15px;
+}
+
+
+/*Login Form*/
+.login-form form label,
+.register-form form#fullformreg label{
+  margin-bottom: 10px;
+}
+
+.login-form form input,
+.register-form form#fullformreg input,
+.register-form form#fullformreg select{
+	 height: 60px;
+	 border-radius: 6px;
+	 margin-bottom: 20px;
+	 border: 1px solid rgb(46 94 125 / 15%);
+	 box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+.register-form form#fullformreg select{
+	width: 100% !important;
+}
+.login-form form input:focus,
+.register-form form#fullformreg input:focus,
+.profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input:focus,
+.register-form form#fullformreg select:focus{
+	outline: none;
+	border: 1px solid rgb(46 94 125 / 15%);
+}
+.login-form form input[type="submit"],
+.register-form form#fullformreg input[type="submit"],
+.profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input[type="submit"]{
+	height: 50px;
+	padding: 12px 40px;
+	margin-bottom: 0;
+	color: #fff;
+	border-color: #313166;
+	background-color: #313166;
+}
+.register-form form#fullformreg input[type="submit"]{
+	background-color: #DEB058;
+		border-color: #DEB058;
+}
+.login-form form input[type="submit"]:hover,
+.register-form form#fullformreg input[type="submit"]:hover,
+.profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input[type="submit"]:hover{
+	background-color: #6ca08f;
+	border-color: #6ca08f;
+}
+.login-form a.forgot-password{
+  text-decoration: none;
+  transition: all .3s;
+  font-size: 18px;
+}
+
+.register-form .register-instructor-thi{
+	margin-bottom: 30px;
+}
+
+.register-form .register-instructor-thi,
+.register-form .register-student-thi{
+  background-color: #F9FCFF;
+  border-radius: 6px;
+  border: 1px solid rgb(46 94 125 / 15%);
+}
+.register-form .register-instructor-thi .elementor-cta__content h2.elementor-cta__title,
+.register-form .register-student-thi .elementor-cta__content h2.elementor-cta__title{
+   color: #313166;
+   font-family: "Futura Pt Medium";
+   font-size: 32px;
+   line-height: 42px;
+}
+.register-form .register-instructor-thi .elementor-cta__content .elementor-cta__description.elementor-cta__content-item,
+.register-form .register-student-thi .elementor-cta__content .elementor-cta__description.elementor-cta__content-item{
+  color: #4d4d4d;
+}
+
+.register-form .register-instructor-thi .elementor-cta__button-wrapper a.elementor-cta__button,
+.register-form .register-student-thi .elementor-cta__button-wrapper a.elementor-cta__button{
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid #313166 !important;
+    background-color: #313166;
+}
+.register-form .register-instructor-thi .elementor-cta__button-wrapper a.elementor-cta__button:hover,
+.register-form .register-student-thi .elementor-cta__button-wrapper a.elementor-cta__button:hover{
+    border: 1px solid #6ca08f !important;
+    background-color: #6ca08f;
+}
+.register-form .register-error-msg {
+    color: #b30000;
+}
+.register-form form#fullformreg{
+	padding: 0 !important;
+	margin-top: 20px;
+}
+
+/*Profile Tab*/
+.profile-tab .elementor-tabs .elementor-tab-title{
+	border-radius: 6px;
+	margin: 0 5px;
+	background-color: #313166;
+}
+.profile-tab .elementor-tabs .elementor-tab-content{
+	 padding: 30px;
+}
+.profile-tab .elementor-tabs .elementor-tab-title.elementor-active{
+   background-color: #6ca08f;
+}
+.profile-tab .elementor-tabs .elementor-tabs-wrapper{
+	margin-bottom: 20px;
+	display: inline-flex;
+}
+.profile-tab .elementor-tabs .elementor-tabs-content-wrapper{
+	border: 1px solid rgb(46 94 125 / 15%) !important;
+	border-radius: 6px;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+.profile-tab .elementor-tabs .elementor-tabs-content-wrapper form label{
+  margin-bottom: 15px;
+}
+.profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input{
+	 height: 60px;
+	 border-radius: 6px;
+	 margin-bottom: 20px;
+	 border: 1px solid rgb(46 94 125 / 15%);
+	 box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+/*Forgot Password*/
+.page.page-id-1324 .site-main.post-1324.status-publish,
+.page.page-id-4862 .site-main.post-4862.status-publish{
+  padding: 35px;
+  border: 1px solid rgb(143 143 143 / 40%);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  font-family: "Joanna Nova W06 Regular";
+}
+.page.page-id-5112 .page-header h1,
+.page.page-id-1324 .page-header h1,
+.page.page-id-4862 .page-header h1 {
+  margin: 0 0 30px;
+  font-size: 42px;
+  color: #313166;
+  line-height: 50px;
+  font-family: "Futura Pt Demi";
+}
+
+#password-lost-form #lostpasswordform .form-row label input[type=text]{
+  margin-top: 10px;
+  height: 60px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(46 94 125 / 15%);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+#password-lost-form #lostpasswordform .form-row label input[type=text]:focus,
+#password-lost-form #lostpasswordform .lostpassword-submit input[type="submit"]:focus{
+	outline: none;
+}
+#password-lost-form #lostpasswordform .lostpassword-submit input[type="submit"]{
+  height: 50px;
+  padding: 12px 40px;
+  margin-bottom: 0;
+  color: #fff;
+  border-radius: 6px;
+  border-color: #313166;
+  background-color: #313166;
+}
+#password-lost-form #lostpasswordform .lostpassword-submit input[type="submit"]:hover{
+	border-color: #6CA08F;
+	background-color: #6CA08F;
+}
+
+
+/*Request Invoice Popup*/
+.request-invoice-popup {
+	background-color: #fff;
+	border-radius: 10px;
+}
+.request-invoice-popup form#invoice-form{
+	padding:50px;
+}
+
+.request-invoice-popup #response-message .success-message {
+  background-color: #219653;
+  padding: 10px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.request-invoice-popup form#invoice-form label{
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.request-invoice-popup form#invoice-form select{
+	width:100% !important;
+	border-radius: 6px;
+	border: 1px solid rgba(46, 94, 125, 0.15);
+	background: #ffffff;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+	height:60px;
+	margin-bottom:10px;
+}
+.request-invoice-popup form#invoice-form textarea{
+	border-radius: 6px;
+	border: 1px solid rgba(46, 94, 125, 0.15);
+	background: #ffffff;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+	height:120px;
+	margin-bottom:10px;
+}
+.request-invoice-popup form#invoice-form input{
+	border-radius: 6px;
+	border: 1px solid rgba(46, 94, 125, 0.15);
+	background: #ffffff;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+	height:60px;
+	margin-bottom:10px;
+}
+
+.request-invoice-popup form#invoice-form input[type=submit]{
+	border-radius: 6px;
+	border: 1px solid #6CA08F;
+	background-color: #6CA08F;
+	padding:15px 30px;
+	color: #ffffff;
+	text-align: center;
+	font-family: JoannaNovaW06-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	width:100%;
+	margin-bottom:0px;
+}
+.request-invoice-popup form#invoice-form input[type=submit]:hover{
+	border: 1px solid #DEB058;
+	background-color:#DEB058;
+}
+.request-invoice-popup form#invoice-form input[type=submit]:focus{
+ outline: none;
+}
+#elementor-popup-modal-4879 .dialog-close-button{
+	color:#313166 !important;
+	font-size: 24px;
+}
+
+.request-invoice-popup form#invoice-form .field-error{
+	color: #C9573C;
+	margin-bottom: 10px;
+}
+
+/*My Classes*/
+.elementor-widget-shortcode .add_teacher_section{
+	position: relative;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form{
+	border: 1px solid #E0E0E0;
+	border-radius: 10px;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td{
+	 background-color: #F9FCFF;
+	 border-color: #E0E0E0;
+	 font-size: 18px;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input[type="submit"],
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input[type="submit"]{
+	 background-color: #313166 !important;
+	 font-size: 16px;
+	 border-radius: 6px;
+	 border: inherit;
+	 color: #fff;
+	 padding: 12px 30px 12px 30px;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input[type="submit"]:hover,
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input[type="submit"]:hover{
+	background-color: #6ca08f !important;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input{
+	  border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    height: 50px;
+}
+.elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input:focus{
+	outline: none;
+}
+.elementor-widget-shortcode .add_teacher_section #error{
+	color: #C9573C;
+	margin-top: 10px;
+}
+.elementor-widget-shortcode .add_teacher_section #result{
+	color: #6ca08f;
+	margin-top: 10px;
+}
+.elementor-widget-shortcode .add_teacher_section #loader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	right: 0;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgb(20 23 30 / 90%);
+}
+
+.student-update{
+	  border-radius: 6px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgb(46 94 125 / 15%);
+    padding: 35px;
+}
+.student-update form#update-user-form label{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.student-update form#update-user-form input,
+.student-update form#update-user-form select{
+  border-radius: 6px !important;
+  border: 1px solid rgb(46 94 125 / 15%) !important;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+  height: 60px;
+  margin-bottom: 15px;
+
+}
+.student-update form#update-user-form select{
+	width: 100% !important;
+}
+.student-update form#update-user-form input:focus{
+	outline: none;
+}
+.student-update form#update-user-form input[type="submit"]{
+	  color: #fff;
+	  background: #313166;
+	  margin-bottom: 0;
+    padding: 14px 40px !important;
+}
+.student-update form#update-user-form input[type="submit"]:hover{
+	 background: #6ca08f;
+}
+.student-update #update-user-message{
+  color: #eb1c26;
+  margin-top: 8px;
+}
+
+.page.page-id-5011 .site-main.post-5011.page header.page-header h1.entry-title{
+  margin: 0 0 20px;
+}
+
+
+
+
+/*Dark Mode Css*/
+body.dark-mode{
+  background-color: #070707;
+}
+
+/*Dark Mode Btn*/
+.dark-mode-btn .toggle-dark-mode-wrapper{
+  width: 75px;
+  height: 38px;
+  border: 2px solid #313166;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+
+}
+.dark-mode-btn .toggle-dark-mode-wrapper input[type=checkbox]{
+  width: 75px;
+  height: 38px;
+  transition: transform 0.2s linear;
+   cursor: pointer;
+  opacity: 0;
+  z-index: 9;
+}
+.dark-mode-btn .toggle-dark-mode-wrapper input:checked + label{
+	left: inherit;
+	right: 2px;
+	z-index: 99;
+	transition: transform 0.2s linear;
+}
+.dark-mode-btn .toggle-dark-mode-wrapper input{
+	position: relative;
+}
+.dark-mode-btn .toggle-dark-mode-wrapper:after{
+	  position: absolute;
+	  left: 10px;
+	  top: 4px;
+	  color: #000;
+	  font-size: 18px;
+	  content:"\f186";
+	  font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+}
+.dark-mode-btn .toggle-dark-mode-wrapper:before{
+	  position: absolute;
+	  right: 10px;
+	  top: 4px;
+	  color: #000;
+	  font-size: 18px;
+	  content:"\f185";
+	  font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+}
+.dark-mode-btn .toggle-dark-mode-wrapper label{
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+   position: absolute;
+   top: 2px;
+   left: 2px;
+   z-index: 9;
+   background-color: #313166;
+}
+
+/*Top Header*/
+body.dark-mode .elementor a:hover{
+  color: #fff;
+}
+body.dark-mode .top-header,
+body.dark-mode .elementor-popup-modal .sidebar-menu .elementor-column-wrap.elementor-element-populated{
+	background-color: #0F0F11 !important;
+}
+body.dark-mode .top-header .side-menu-main .elementor-icon svg path{
+  fill: #fff;
+}
+body.dark-mode .top-header .dark-mode-btn .toggle-dark-mode-wrapper{
+  border: 2px solid #fff;
+}
+body.dark-mode .dark-mode-btn .toggle-dark-mode-wrapper:after,
+body.dark-mode .dark-mode-btn .toggle-dark-mode-wrapper:before{
+	color: #fff;
+}
+body.dark-mode .dark-mode-btn .toggle-dark-mode-wrapper label{
+background-color: #fff}
+
+body.dark-mode .dark-logo-header .elementor-image,
+body .light-logo-header .elementor-image,
+body.dark-mode .footer-dark-logo .elementor-image-box-img,
+body .footer-light-logo .elementor-image-box-img,
+body.dark-mode .hwa-light-logo .elementor-image{
+  display: none;
+}
+
+body.dark-mode .light-logo-header .elementor-image,
+body.dark-mode .footer-light-logo .elementor-image-box-img,
+body .hwa-light-logo .elementor-image{
+  display: block;
+}
+
+/*Dark Footer*/
+body.dark-mode .main-footer-section{
+   background-color: #000000 !important;
+}
+body.dark-mode .main-footer-section .footer-light-text p.elementor-heading-title{
+  color: #fff;
+}
+
+
+/*Single Pages*/
+body.single.dark-mode .single-dark-section .elementor-widget-theme-post-content,
+body.single.dark-mode .single-dark-section .elementor-widget-theme-post-title .elementor-heading-title,
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelquestionsdiv .premise-question-content p, 
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable .premise-objection-table .quiz-table-box .quiz-question-text p,
+body.single.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td.quiz-feeback-row, 
+body.single.dark-mode.single-quizzes .overview-content .pccorequestionsbyquiztable .premise-objection-table .quiz-table-box table tbody tr td.quiz-feeback-row, 
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.quiz-feeback-row,
+body.single.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box .quiz-question-text p,
+body.single.dark-mode.single-quizzes .overview-content h3#groupheaderforquizquestions,
+body.single.dark-mode.single-lessons .overview-content ul li::marker, 
+body.single.dark-mode.single-chapters .overview-content ul li::marker,
+body.single.dark-mode .overview-content p a:hover,
+body.single.dark-mode.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table tbody tr td textarea, 
+body.single.dark-mode .overview-content table.pccorequestionsbyquiztable tbody tr td table tr td.com-feed,
+body.single.dark-mode.single-chapters .overview-content .glossary-concepts h3.title,
+body.single.dark-mode.single-chapters h3.my-points-title, 
+body.single.dark-mode.single-chapters .points-section h3,
+body.dark-mode .elementor-3061.elementor-location-single .single-dark-section .elementor-widget-heading .elementor-heading-title,
+body.dark-mode .elementor-3061.elementor-location-single .single-dark-section .elementor-widget-text-editor,
+body.dark-mode .elementor-3061.elementor-location-single .single-dark-section .students-user-info h3,
+body.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box h2,
+body.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor #scoresection ul li,
+body.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor #scoresection h4,
+body.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box h3,
+body.dark-mode .overview-content .my-progress-skill h2, 
+body.dark-mode .overview-content .my-progress-skill h3,
+body.dark-mode .overview-content .my-progress-skill .standards table.standards thead tr.standards td.standards,
+body.dark-mode.single-memberpressproduct .memberpressproduct.type-memberpressproduct .page-header h1.entry-title,
+body.dark-mode.single-memberpressproduct .memberpressproduct.type-memberpressproduct .mp-form-row.mepr_bold.mepr_price, 
+body.dark-mode.single-memberpressproduct .memberpressproduct.type-memberpressproduct form.mepr-signup-form.mepr-form .mp-form-row .mp-form-label label,
+body.dark-mode .my-progress-skill label,
+body.dark-mode .my-progress-skill .inner table.data tbody tr th, 
+body.dark-mode .my-progress-skill .inner table.data tbody tr td,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive.files .list-container .nav-header a.entry-info-button,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive ol.wpcp-breadcrumb>li a,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive ol.wpcp-breadcrumb>li+li:before,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .files .entry,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .entry-info-name a,
+body.single.dark-mode .elementor-section-boxed.dark-footer .elementor-nav-menu--main .elementor-item,
+body.single.dark-mode .elementor-section-boxed.dark-footer .elementor-heading-title,
+body.dark-mode .student-box .elementor-widget-container h2.elementor-heading-title,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table thead tr th,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td label,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td h4,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr.user-footer-bottom td label,
+body.dark-mode .request-invoice-popup form#invoice-form label,
+body.dark-mode .single-dark-section .profile-tab.elementor-tabs-view-horizontal .elementor-tab-content form label,
+body.dark-mode .single-dark-section .overview-content,
+body.dark-mode .my-progress-skill .studentprogess-modal .studentprogessmodal-close,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-widget-content,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-widget-content p,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content table tbody tr.preobjnei td, 
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student table tbody tr.preobjnei td,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student p,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .tippy-content li>a, 
+body.dark-mode .single-dark-section .overview-content .UseyourDrive .tippy-content li>a,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-header h1,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content p,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content #UseyourDrive .entry-info-button, 
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content .UseyourDrive .entry-info-button,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content #UseyourDrive a,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content .UseyourDrive a,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content p a:hover{
+  color: #fff;
+}
+
+body.dark-mode .elementor-3061.elementor-location-single .single-dark-section .elementor-column-wrap.elementor-element-populated,
+body.single.dark-mode .single-dark-section .elementor-column-wrap.elementor-element-populated,
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr#sortingelementsrow td,
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td[id*='creteriaonleft_'],
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.preobjnei td, 
+body.single.dark-mode.quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td,
+body.single.dark-mode.single-quizzes .overview-content .pccorequestionsbyquiztable #panelanswersdiv.quiz-feedback-survey .table-responsive table.feed-sur-table tbody tr td textarea, 
+body.single.dark-mode .overview-content table.pccorequestionsbyquiztable tbody tr td table tr td.com-feed,
+body.dark-mode.single-memberpressproduct .memberpressproduct.type-memberpressproduct,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .files .entry,
+body.single.dark-mode .elementor-section-boxed.dark-footer,
+body.dark-mode .request-invoice-popup,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .tippy-content li>a.sort-selected,
+body.dark-mode.page.page-id-5112 .site-main.post-5112.status-publish,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 #UseyourDrive .entry,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 #UseyourDrive .tippy-content li>a:hover, 
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .UseyourDrive .tippy-content li>a:hover{
+  background-color: #000;
+}
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr#sortingelementsrow td,
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.preobjnei td, 
+body.single.dark-mode.quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .files .entry,
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form{
+	border: 1px solid rgb(135 135 135 / 50%) !important;
+}
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr#sortingelementsrow td div.sortIt, 
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td.droppablequestion div[id*='span_draggablediv1_'],
+body.single.dark-mode.single-lessons .overview-content figure.wp-block-pullquote,
+body.single.dark-mode.single-chapters .overview-content .glossary-concepts,
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td {
+    color: #fff !important;
+    border: 1px solid rgb(135 135 135 / 50%);
+    background-color: rgba(20, 23, 30, 0.50) !important;
+}
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td[id*='creteriaonleft_'],
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td[id*='droppablediv2_']{
+	border-bottom: 1px solid rgb(135 135 135 / 50%) !important;
+	color: #fff !important;
+	background-color: #000;
+}
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table tbody tr[id*='marixgridrow_'] td.droppablequestion div[id*='span_draggablediv1_'] .pccore_undodrop.numberCircle{
+  color: #fff !important;
+  border: 1px solid rgb(135 135 135 / 50%);
+  background-color: transparent;
+}
+
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.preobjnei td, 
+body.single.dark-mode .quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td{
+  background-color: #000;
+}
+
+body.single.dark-mode .overview-content table.pccorequestionsbyquiztable tbody>tr:nth-child(odd)>td, 
+body.single.dark-mode .overview-content table.pccorequestionsbyquiztable tbody>tr:nth-child(odd)>th,
+body.dark-mode .overview-content .my-progress-skill table.progress-table thead tr:nth-of-type(odd),
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .file-container,
+body.dark-mode .overview-content .my-progress-skill .studentprogess-modal .studentprogessmodal-content,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content #UseyourDrive .file-container{
+  background-color: rgba(20, 23, 30, 0.50);
+}
+body.single.dark-mode.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table,
+body.dark-mode .overview-content .my-progress-skill table.progress-table thead tr,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table thead tr,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td .tooltip input[type=text],
+body.dark-mode .single-dark-section  .students-user-info .elementor-text-editor table tbody tr td input[type=text],
+body.dark-mode .student-box table tbody tr,
+body.dark-mode .overview-content .my-progress-skill .studentprogess-modal .studentprogessmodal-content,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-header,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-widget-content,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 #UseyourDrive .entry,
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input{
+	border: 1px solid rgb(135 135 135 / 50%) !important;
+}
+body.dark-mode .overview-content .my-progress-skill table td, .my-progress-skill table th{
+	border: 1px solid rgba(46, 94, 125, 0.2) !important;
+}
+body.single.dark-mode .overview-content input[type="button"]#resetallquestionsforquizAllgroups{
+	color: #fff;
+	border: 1px solid #fff;
+}
+body.single.dark-mode .overview-content input[type="button"]#resetallquestionsforquizAllgroups:hover,
+body.single.dark-mode .overview-content input[type="button"]#resetallquestionsforquizAllgroups:focus{
+  background-color: #fff;
+  outline: none;
+  color: #313166;
+}
+body.single.dark-mode .overview-content input[type="button"]#resetallquestionsforquiz:hover,
+body.single.dark-mode .overview-content input[type="button"]#resetallquestionsforquiz:focus{
+	background-color: #fff !important;
+  outline: none;
+  color: #313166;
+}
+
+body.single.dark-mode .overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal,
+body.dark-mode .overview-content .my-progress-skill .studentprogess-modal,
+body.dark-mode #elementor-popup-modal-4879,
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-widget-content{
+  background-color: #0F0F0F !important;
+}
+body.single.dark-mode .overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content{
+	background-color: #000;
+	color: #fff;
+}
+
+body.single.dark-mode.single-lessons .overview-content .is-layout-flex.wp-block-buttons .wp-block-button a.wp-block-button__link{
+  border: none;
+}
+body.dark-mode .elementor-3061.elementor-location-single .single-dark-section .elementor-widget-text-editor p span,
+body.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box,
+body.dark-mode #elementor-popup-modal-4879 .dialog-close-button{
+	color: #fff !important;
+}
+body.dark-mode .elementor-3061.elementor-location-single .single-dark-section .elementor-widget-text-editor p a,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .tippy-content li>a:hover, 
+body.dark-mode .single-dark-section .overview-content .UseyourDrive .tippy-content li>a:hover{
+  background-color: transparent !important;
+}
+body.dark-mode.single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor hr{
+  background-color: rgb(242 242 242 / 10%);
+  border: 1px solid rgb(242 242 242 / 10%);
+}
+
+body.dark-mode .overview-content .glossary-concepts figure table tbody>tr:nth-child(odd)>td, 
+body.dark-mode .overview-content .glossary-concepts figure table tbody>tr:nth-child(odd)>th, 
+body.dark-mode .overview-content .points-section table tbody>tr:nth-child(odd)>td, 
+body.dark-mode .overview-content .points-section table tbody>tr:nth-child(odd)>th{
+  background-color: rgba(20, 23, 30, 0.50) !important;
+}
+
+body.dark-mode .glossary-concepts figure table.has-fixed-layout tbody tr td, 
+body.dark-mode .glossary-concepts figure table tbody tr td, 
+body.dark-mode .points-section table tbody tr td,
+body.dark-mode .elementor-popup-modal .dialog-widget-content{
+  background-color: #000 !important;
+}
+body.dark-mode.single-memberpressproduct .memberpressproduct.type-memberpressproduct .mp-form-row input,
+body.dark-mode .my-progress-skill select#teachersviewforgroup2combo,
+body.dark-mode .my-progress-skill .inner table.data tbody tr td,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td input[type=text],
+body.dark-mode .request-invoice-popup form#invoice-form input,
+body.dark-mode .request-invoice-popup form#invoice-form textarea,
+body.dark-mode .request-invoice-popup form#invoice-form select,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table thead,
+body.dark-mode .single-dark-section .profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input,
+body.dark-mode .overview-content #UseyourDrive .tippy-box .tippy-content,
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input,
+body.dark-mode.page.page-id-5112 .site-main.post-5112 .page-content #UseyourDrive .tippy-box .tippy-content{
+  background-color: #14171E !important;
+  color: #fff;
+}
+body.dark-mode.single-memberpressproduct .memberpressproduct.type-memberpressproduct .iti--separate-dial-code .iti__selected-flag{
+	background-color: #0F0F11 !important;
+  color: #fff;
+}
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .file-container{
+	padding: 10px;
+}
+
+.page.page-id-5112 .site-main.post-5112 #UseyourDrive .entry:not(.no-entries):focus,
+.page.page-id-5112 .site-main.post-5112 #UseyourDrive .entry:not(.no-entries):hover,
+body.dark-mode .single-dark-section .overview-content #UseyourDrive .entry:not(.no-entries):hover,
+body.dark-mode .request-invoice-popup form#invoice-form input[type=submit]{
+   background-color: #6CA08F !important;
+}
+body.dark-mode .request-invoice-popup form#invoice-form input[type=submit]:hover{
+	background-color: #DEB058 !important;
+}
+body.single.dark-mode .elementor-section-boxed.dark-footer .elementor-nav-menu--main .elementor-item:hover,
+body.single.single-memberpressproduct.dark-mode .dark-header .elementor-nav-menu--main .elementor-item:hover,
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table tbody tr td input[type=text],
+body.dark-mode .overview-content .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-widget-content a{
+	color: #6CA08F;
+}
+body.single.dark-mode .elementor-section-boxed.dark-footer .elementor-element.elementor-element-2867a323{
+	border-bottom: 1px solid rgb(255 255 255 / 20%) !important;
+}
+.overview-content #UseyourDrive .files .entry{
+	transition: all .3s !important;
+}
+
+body.single.single-memberpressproduct.dark-mode .dark-header{
+	background-color: #000 !important;
+}
+body.single.single-memberpressproduct.dark-mode .dark-header .elementor-nav-menu--main .elementor-item{
+  color: #fff;
+}
+body.dark-mode .single-dark-section .students-user-info .elementor-text-editor table thead tr th{
+  border-top: 1px solid rgb(135 135 135 / 20%) !important;
+}
+body.dark-mode .single-dark-section .profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input[type="submit"]{
+    background-color: #313166 !important;
+}
+body.dark-mode .single-dark-section .profile-tab .elementor-tabs .elementor-tabs-content-wrapper form input[type="submit"]:hover{
+    background-color: #6ca08f !important;
+}
+
+body.dark-mode .sidebar-menu .sidebar-btn.progress-dark-btn .elementor-button-wrapper a.elementor-button {
+  background-color: #313166;
+  color: #fff;
+}
+body.dark-mode .sidebar-menu .sidebar-btn.progress-dark-btn .elementor-button-wrapper a.elementor-button:hover{
+	background-color: #6CA08F;
+}
+
+body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table{
+	border: initial;
+}
+
+body.dark-mode .download-certificate-dark .elementor-page-title h1.elementor-heading-title,
+body.dark-mode .download-certificate-dark .elementor-widget-text-editor{
+  color: #fff;
+}
+.page.page-id-5112 .site-main.post-5112 .page-content p a{
+  text-decoration: none;
+}
+
+/* body.dark-mode .single-dark-section .elementor-widget-shortcode .add_teacher_section form#add_teacher_form table tr td input:-webkit-autofill{
+ 	   -webkit-box-shadow: 0 0 0 30px #14171E inset;
+ }*/
+
+.elementor-location-popup .side-bar-menu-top ul.elementor-nav-menu li.menu-item {
+    width: 100%;
+    margin-bottom: 0;
+}
+.elementor-location-popup .side-bar-menu-top ul.elementor-nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.elementor-location-popup .side-bar-menu-top ul.elementor-nav-menu li.menu-item a.elementor-item{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 18px;
+    color: #FFFFFF !important;
+    background-color: #DEB058;
+    border-style: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+    padding: 16px 10px 16px 10px;
+}
+.elementor-location-popup .side-bar-menu-top ul.elementor-nav-menu li.menu-item a.elementor-item:hover,
+.elementor-location-popup .side-bar-menu-top ul.elementor-nav-menu li.menu-item a.elementor-item.elementor-item-active{
+    color: #203143 !important;
+    background-color: #fff;
+}
+
+
+body.dark-mode .call-to-action-section h2.elementor-heading-title,
+body.dark-mode .call-to-action-section .call-to-action .elementor-heading-title{
+  color: #fff;
+}
+.call-to-action .create-account-btn{
+  margin-left: auto;
+}
+body.dark-mode .call-to-action-section .elementor-column-wrap.elementor-element-populated{
+   background-color: #000 !important;
+}
+
+/*point-data*/
+.point-data table{
+	border-radius: 6px;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+.point-data table thead {
+  background-color: #4054B2;
+}
+.point-data table thead tr th{
+	color: #fff;
+	font-size: 18px;
+	text-align: left;
+	font-family: "Archivo", Sans-serif;
+}
+.point-data table tbody tr td{
+	font-size: 16px;
+	color: #323232;
+	font-family: "Archivo", Sans-serif;
+}
+.point-data table tbody>tr:nth-child(odd)>td, 
+.point-data table tbody>tr:nth-child(odd)>th{
+  background-color: #EBEFF8;
+}
+.point-data table td{
+  border: none;
+}
+.point-data {
+  border-radius: 6px;
+  border: 1px solid #E0E0E0;
+}
+.point-data table td, 
+.point-data table th{
+   padding: 25px 20px;
+}
+.point-data table tbody tr:hover>td, 
+.point-data table tbody tr:hover>th{
+   background-color: transparent;
+}
+
+.point-data table tbody>tr:hover:nth-child(odd)>td, 
+.point-data table tbody>tr:hover:nth-child(odd)>th{
+  background-color: #EBEFF8;
+}
+.point-data {
+	overflow-x: auto;
+}
+
+
+body.dark-mode .point-data table tbody>tr:nth-child(odd)>td, 
+body.dark-mode .point-data table tbody>tr:nth-child(odd)>th{
+  background-color: #0f0f11;
+  color: #fff;
+}
+body.dark-mode .point-data table tbody tr td{
+ color: #fff;
+}
+body.dark-mode .point-data{
+    border: 1px solid rgb(143 143 143 / 40%);
+}
+
+
+@media (max-width:1366px) {
+	body:not([class*=elementor-page-]) .site-main{
+	   width: auto !important;
+	   margin: 100px 15px !important;
+	}
+}
+
+@media (max-width:1300px) {
+	.img-gallery .gallery .gallery-item{
+		padding: 10px !important;
+	}
+   .img-gallery .gallery{
+   	 margin: 0 !important;
+   }
+}
+@media (max-width:1297px) {
+.page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .folders-container .entry, .page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .files-container .entry {
+      width: 30.33% !important;
+   }
+}
+
+@media (max-width:1200px) {
+
+	  .call-to-action .create-account-btn{
+     margin:20px 0 0;
+   }
+
+}
+
+@media (max-width:992px) {
+  .my-progress-skill table tbody tr td{
+  	padding: 20px 10px;
+  }
+  .memberpressproduct.type-memberpressproduct .page-header h1.entry-title{
+  	font-size: 36px;
+    line-height: 46px;
+  }
+
+  body:not([class*=elementor-page-]) .site-main{
+    margin: 60px 15px !important;
+  }
+
+  .overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content{
+  	width: 65%;
+  }
+
+.request-invoice-popup form#invoice-form{
+	padding:40px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+  .img-gallery .elementor-image-gallery .gallery.gallery-columns-6 .gallery-item{
+     max-width: 33.33%;
+  }
+}
+@media (max-width: 767px){
+.page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .folders-container .entry, .page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .files-container .entry {
+      width: 44.44% !important;
+  }
+  .overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header{
+  	flex-wrap: wrap;
+  	justify-content: inherit;
+  }
+  .overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-title{
+	     flex: 0 0 100%;
+	     flex-wrap: wrap;
+  }
+  .overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .entry-info-button{
+  	margin-top: 10px;
+  }
+  .overview-content #UseyourDrive.light.files .UseyourDrive.files .list-container .nav-header .nav-home.entry-info-button{
+  	margin-left: 10px !important;
+  }
+   .overview-content #UseyourDrive ol.wpcp-breadcrumb{
+  	text-align: left;
+  }
+  	.my-progress-skill .table-responsive,
+  	.glossary-concepts figure.wp-block-table,
+  	.points-section .table-responsive{
+	  	overflow-x: auto !important;
+      max-width: 800px !important;
+      display: block;
+	  }
+  	.my-progress-skill .table-responsive table,
+  	.glossary-concepts figure.wp-block-table table,
+  	.points-section .table-responsive table{
+      width: 800px !important;
+  	}
+		.overview-content .glossary-concepts h3.title,
+		h3.my-points-title,
+		.points-section h3{
+			 font-size: 28px;
+       line-height: 38px;
+			}
+  	.overview-content .glossary-concepts{
+  		padding: 25px;
+  	}
+  .memberpressproduct.type-memberpressproduct .page-header h1.entry-title{
+  	font-size: 30px;
+    line-height: 40px;
+  }
+
+  .my-progress-skill select#teachersviewforgroup2combo{
+    width: 400px !important;
+  }
+
+  .my-progress-skill button{
+  	margin: 0 10px 15px 0;
+  	padding: 10px 30px !important;
+  }
+
+  body:not([class*=elementor-page-]) .site-main{
+    margin: 50px 15px !important;
+  }
+
+  .single-lessons .overview-content figure.wp-block-pullquote{
+  	padding: 1em 0;
+  }
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box{
+  	padding: 30px;
+  }
+
+
+  .overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content{
+  	width: 75%;
+  }
+	.single-quizzes .pccorequestionsbyquiztable #panelanswersdiv{
+		overflow-x: scroll;
+	}
+  .single-quizzes .pccorequestionsbyquiztable #panelanswersdiv table{
+  	width: 700px;
+  }
+  .single-quizzes .pccorequestionsbyquiztable .premise-objection-table #panelanswersdiv table{
+  	width: auto;
+  }
+  .single-quizzes .pccorequestionsbyquiztable .premise-objection-table{
+  	padding: 10px;
+  }
+
+  .single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr.preobjnei td, 
+  .quiz-question-box .quiz-table-box .table-responsive table tbody tr.preobjnei td{
+    padding: 25px;
+  }
+
+  .profile-tab .elementor-tabs .elementor-tab-title{
+    margin: 5px 0;
+  }
+  .profile-tab .elementor-tabs .elementor-tabs-wrapper{
+  	display: none;
+  }
+  .profile-tab .elementor-tabs .elementor-tab-content {
+    padding: 20px;
+  }
+  .profile-tab .elementor-tabs .elementor-tabs-content-wrapper{
+  	 padding: 20px 15px;
+  }
+
+  /*My Classes*/
+		.overview-content .students-user-info .elementor-text-editor .table-responsive{
+		  overflow-x: auto;
+		}
+		.overview-content .students-user-info .elementor-text-editor .table-responsive table{
+			width: 700px;
+		}
+  
+  .page.page-id-1324 .page-header h1{
+  	font-size: 28px;
+    line-height: 38px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .page.page-id-1324 .site-main.post-1324.status-publish{
+  	padding: 20px;
+  }
+
+  .request-invoice-popup form#invoice-form{
+   	padding:40px 20px;
+  }
+
+body.single.single-memberpressproduct.dark-mode .dark-header div.elementor-menu-toggle{
+  color: #fff;
+}
+
+}
+
+
+@media (max-width: 575px){
+
+		table td, 
+		table th{
+		 padding: 10px;
+		}
+  	.overview-content .glossary-concepts h3.title{
+			 font-size: 26px;
+       line-height: 36px;
+			}
+  	.overview-content .glossary-concepts{
+  		padding: 20px;
+  	}
+  	.memberpressproduct.type-memberpressproduct .iti--separate-dial-code{
+  		width: auto;
+  	}
+  	.memberpressproduct.type-memberpressproduct .page-header h1.entry-title{
+  	font-size: 28px;
+    line-height: 38px;
+    padding: 0;
+   }
+
+  .my-progress-skill select#teachersviewforgroup2combo{
+    width: 255px !important;
+  }
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor h2{
+  	padding: 12px 30px;
+  	line-height: 30px;
+  	font-size: 20px;
+  }
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box{
+  	padding: 15px;
+  }
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td.quiz-feeback-row{
+  	font-size: 18px;
+  	line-height: 28px;
+  }
+
+   .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .table-responsive{
+     overflow-x: scroll;
+   }
+   .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .table-responsive table{
+     width: 575px;
+     overflow: hidden;
+   }
+   .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-result-box h2{
+   	padding: 0;
+   }
+   .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor #scoresection h4 {
+     font-size: 18px;
+  }
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box{
+  	margin-bottom: 30px;
+  }
+
+  .overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-content{
+  	width: 95%;
+  	padding: 24px;
+  }
+  .overview-content #pccorefrontendmessage-modal.pccorefrontendmessage-modal .pccorefrontendmessage-message#pccorefrontendmessage-messageid{
+  	padding: 0 0 0 15px !important;
+  }
+
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box .quiz-question-text p,
+  .single-quizzes .overview-content #allquestionfeedbackdivfor #allfeedbackfor .quiz-question-box .quiz-table-box table tbody tr td.quiz-feeback-row, 
+  .single-quizzes .overview-content .pccorequestionsbyquiztable .premise-objection-table .quiz-table-box table tbody tr td.quiz-feeback-row, 
+  .single-quizzes .pccorequestionsbyquiztable .premise-objection-table [id*='questionfeedbackdivfor_'] .quiz-table-box .table-responsive table tr td.quiz-feeback-row{
+  	font-size: 18px;
+  	line-height: 28px;
+  }
+  .overview-content table.pccorequestionsbyquiztable tbody tr td table tr td label p{
+  	font-size: 16px;
+    line-height: 26px;
+  }
+
+  .my-progress-skill button {
+    margin: 0 10px 15px 0;
+    font-size: 14px;
+    padding: 10px 20px !important;
+  }
+  .my-progress-skill table tbody tr td{
+  	padding: 14px 10px;
+  	font-size: 18px;
+    line-height: 30px;
+  }
+
+  .register-form .register-instructor-thi .elementor-cta__content, 
+  .register-form .register-student-thi .elementor-cta__content{
+    padding: 20px;
+  }
+  .register-form .register-instructor-thi .elementor-cta__content h2.elementor-cta__title, 
+  .register-form .register-student-thi .elementor-cta__content h2.elementor-cta__title{
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .next-btn #nextbutton button.button, 
+  .overview-content .pccorequestionsbyquiztable #submitdivforquestionsforquiz input[type="button"], 
+  .overview-content #previousnextdivforquestionsforquiz input[type="button"]#submitquestionbtnnext, 
+  .overview-content #completedquizdiv button.button{
+    padding: 12px 30px !important;
+    font-size: 14px;
+  }
+
+  .overview-content h3#groupheaderforquizquestions{
+  	font-size: 30px;
+    Line-height: 40px;
+  }
+  .overview-content #progressbarforpercentagepassing #progressbarforpercentagepassingbar{
+  	line-height: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .students-user-info .elementor-text-editor table thead tr th,
+  .glossary-concepts figure table.has-fixed-layout tbody tr td, 
+  .glossary-concepts figure table tbody tr td, 
+  .points-section table tbody tr td{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .login-form form input, .register-form form#fullformreg input, 
+  .register-form form#fullformreg select{
+     height: 50px;
+     margin-bottom: 15px;
+  }
+  .overview-content table.pccorequestionsbyquiztable tbody tr td table tr td{
+  	 height: 50px;
+  }
+  .overview-content .glossary-concepts h3.title, h3.my-points-title, .points-section h3{
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .my-progress-skill .studentprogessmodal-student .ui-accordion .ui-accordion-content{
+  	padding: 20px !important;
+  }
+
+   .request-invoice-popup form#invoice-form{
+   	padding:40px 15px 30px;
+  }
+
+  	.elementor-column.side-menu-main .elementor-widget-wrap .elementor-icon svg {
+       height: 30px !important;
+       padding-top: 5px;
+		 }
+    .elementor-column.side-menu-main .elementor-widget-wrap{
+      padding: 0px 10px 0px 10px !important;
+		}
+		.elementor-column.main-logo-header .elementor-widget-wrap{
+      padding: 0px 10px 0px 10px !important;
+		}
+		.elementor-column.main-menu-button .elementor-widget-wrap{
+      padding: 0px 10px 0px 10px !important;
+		}
+
+		.elementor-column.main-menu-button .elementor-widget-wrap .elementor-button-wrapper a.elementor-button.elementor-button-link {
+	    padding: 8px 9px !important;
+	    font-size: 13px !important;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper,
+		.dark-mode-btn .toggle-dark-mode-wrapper input[type=checkbox]{
+		 width: 50px;
+     height: 28px;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper label{
+		 width: 20px;
+     height: 20px;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper:after{
+			font-size: 14px;
+			left: 4px;
+      top: 0px;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper:before{
+			font-size: 14px;
+			right: 4px;
+			top: 0px;
+		}
+
+		body .student-box table thead tr th{
+			padding: 12px 15px;
+			font-size: 16px;
+		}
+
+}
+
+@media (max-width: 479px){
+	  .img-gallery .elementor-image-gallery .gallery.gallery-columns-6 .gallery-item{
+     max-width: 50%;
+  }
+  .page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .folders-container .entry, .page-template-default .overview-content #UseyourDrive.light.files .UseyourDrive.files.wpcp-thumb-view .files.has-breadcrumb .files-container .entry {
+     width: 93% !important;
+  }
+
+  .dark-mode-btn .toggle-dark-mode-wrapper,
+		.dark-mode-btn .toggle-dark-mode-wrapper input[type=checkbox]{
+		 width: 50px;
+     height: 28px;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper label{
+		 width: 20px;
+     height: 20px;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper:after{
+			font-size: 14px;
+			left: 4px;
+      top: 0px;
+		}
+		.dark-mode-btn .toggle-dark-mode-wrapper:before{
+			font-size: 14px;
+			right: 4px;
+			top: 0px;
+		}
+
+		.main-top-header.top-header .elementor-row .elementor-column.elementor-col-33.side-menu-main .elementor-widget-wrap,
+		.main-top-header.top-header .elementor-row .elementor-column.elementor-col-33.main-logo-header .elementor-widget-wrap{
+      padding: 0px 5px 0px 5px !important;
+		}
+		.main-top-header.top-header .elementor-row .elementor-column.elementor-col-33.main-menu-button .elementor-widget-wrap{
+      padding: 0px 8px 0px 5px !important;
+		}
+
+		.main-top-header.top-header .elementor-row .elementor-column.elementor-col-33.side-menu-main{
+		  width: 10%;
+		}
+		.main-top-header.top-header .elementor-row .elementor-column.elementor-col-33.main-logo-header{
+			width: 25%;
+		}
+		.main-top-header.top-header .elementor-row .elementor-column.elementor-col-33.main-menu-button{
+			width: 65%;
+		}
+
+	 .elementor-column.main-menu-button .elementor-widget-wrap .elementor-button-wrapper a.elementor-button.elementor-button-link {
+     padding: 6px 6px !important;
+     font-size: 12px !important;
+   }
+
+}
